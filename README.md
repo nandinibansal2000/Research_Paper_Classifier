@@ -43,7 +43,29 @@ By using one vs rest classifier and logistic regression, for each label, a model
 The final model was trained using LinearSVC, and One-vs-rest method for multilabel classification. This model gave a better results than our baseline model. So, we tuned the hyperparameters and saved this model as our final model.
 
 ### Evaluation Metrics
+Logistic Regression
+Macro Precision : 0.88
+Micro Precision : 0.96
+Macro Recall : 0.48
+Micro Recall : 0.45
 
+Linear SVC
+Macro Precision : 0.95
+Micro Precision : 0.96
+Macro Recall : 0.51
+Micro Recall : 0.59
+
+MLP Classifier
+Macro Precision : 0.97
+Micro Precision : 0.97
+Macro Recall : 0.50
+Micro Recall : 0.58
+
+Ridge Classifier
+Macro Precision : 0.96
+Micro Precision : 0.75
+Macro Recall : 0.36
+Micro Recall : 0.37
 
 <!-- GETTING STARTED -->
 ## Getting Started
