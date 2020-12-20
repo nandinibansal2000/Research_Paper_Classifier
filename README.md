@@ -5,9 +5,9 @@
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
-  * [Methodology](#methodology)
-   * [Training](#training)
-   * [Evaluation Metrics](#evaluation-metrics)
+* [Methodology](#methodology)
+  * [Training](#training)
+  * [Evaluation Metrics](#evaluation-metrics)
 * [Getting Started](#getting-started)
   * [Installation](#installation)
 
@@ -25,7 +25,7 @@ An automated system which can do tagging of research papers. It gives multiple l
 * [Flask](https://flask.palletsprojects.com/en/1.1.x/)
 
 
-### Methodology
+## Methodology
 
 The initial dataset has 1.7 million research papers in JSON format. The dataset was obtained from [Kaggle](https://www.kaggle.com/Cornell-University/arxiv). It has the research papers hosted on [arXiv](https://arxiv.org/).
 The standard text preprocessing steps were applied to each of the data instances:
