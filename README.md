@@ -94,4 +94,16 @@ pip install -r requirements.txt
 python3 __init__.py
 ```
 
+### Reproduce Results and Visualizaton
+1. Download required files.
+```sh
+https://drive.google.com/file/d/1DobmfurhPQg6b1zKLyGAN2f28YouAn3F/view?usp=sharing
+https://drive.google.com/file/d/1U93T9f42TwjCzyEPYd48yfltn50CnNae/view?usp=sharing
+```
+2. Run
+```sh
+python3 Clasifier/visualizations.py
+python3 Classifier/evaluate_model.py
+```
+
 
