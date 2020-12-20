@@ -25,7 +25,7 @@ An automated system which can do tagging of research papers. It gives multiple l
 
 ### Methodology
 
-The initial dataset has 1.7 million research papers in JSON format. The dataset was obtained from [Kaggle](https://www.kaggle.com/Cornell-University/arxiv). It has the research papers hosted on arXiv.
+The initial dataset has 1.7 million research papers in JSON format. The dataset was obtained from [Kaggle](https://www.kaggle.com/Cornell-University/arxiv). It has the research papers hosted on [arXiv](https://arxiv.org/).
 The standard text preprocessing steps were applied to each of the data instances:
 Lower case, remove stop words, punctuations and digits.
 
