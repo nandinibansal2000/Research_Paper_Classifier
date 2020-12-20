@@ -5,9 +5,9 @@
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
+  * [Methodology](#methodology)
 * [Getting Started](#getting-started)
   * [Installation](#installation)
-  * [Important Instructions](#important-instructions)
 
 
 
@@ -21,6 +21,31 @@ An automated system which can do tagging of research papers. It gives multiple l
 
 * [Python](https://www.python.org/)
 * [Flask](https://flask.palletsprojects.com/en/1.1.x/)
+
+
+### Methodology
+#### Dataset
+The initial dataset has 1.7 million research papers in JSON format. The dataset was obtained from [Kaggle](https://www.kaggle.com/Cornell-University/arxiv). It has the research papers hosted on arXiv
+
+#### Preprocessing
+The standard text preprocessing steps were applied to each of the data instances:
+Lower case, remove stop words, punctuations and digits.
+
+#### Data Analysis
+The following analysis were performed:
+Number of data in each category. Number of categories for each data. Word cloud analysis for some classes.
+
+#### Feature Extraction
+Fasttext was used to learn the 100 dimensional word embeddings on the entire dataset of 1.7 million articles. Vocabulary of 30000 most frequent words were retained.
+Feature for each document (Abstract + Title) was calculated as the average of all the words in the document
+
+#### Training Baseline Model
+The problem statement was decomposed into multiple independent classification problems. 
+By using one vs rest classifier and logistic regression, for each label, a model was trained and tested on unseen data. Various evaluation metrics were analyzed. Eg: Micro and Macro Precision
+
+#### Final Model
+The final model was trained using LinearSVC, and One-vs-rest method for multilabel classification. This model gave a better results than our baseline model. So, we tuned the hyperparameters and saved this model as our final model.
+
 
 
 
@@ -44,9 +69,5 @@ pip install -r requirements.txt
 ```sh
 python3 __init__.py
 ```
-
-### Important Instructions
-
-1. Currently website supports the research papers hosted on Arxiv.org
 
 
