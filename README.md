@@ -6,6 +6,8 @@
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
   * [Methodology](#methodology)
+   * [Training](#training)
+   * [Evaluation Metrics](#evaluation-metrics)
 * [Getting Started](#getting-started)
   * [Installation](#installation)
 
