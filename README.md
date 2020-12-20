@@ -44,28 +44,34 @@ The final model was trained using LinearSVC, and One-vs-rest method for multilab
 
 ### Evaluation Metrics
 Logistic Regression
+```sh
 Macro Precision : 0.88
 Micro Precision : 0.96
 Macro Recall : 0.48
 Micro Recall : 0.45
+```
 
 Linear SVC
+```sh
 Macro Precision : 0.95
 Micro Precision : 0.96
 Macro Recall : 0.51
 Micro Recall : 0.59
-
+```
 MLP Classifier
+```sh
 Macro Precision : 0.97
 Micro Precision : 0.97
 Macro Recall : 0.50
 Micro Recall : 0.58
-
+```
 Ridge Classifier
+```sh
 Macro Precision : 0.96
 Micro Precision : 0.75
 Macro Recall : 0.36
 Micro Recall : 0.37
+```
 
 <!-- GETTING STARTED -->
 ## Getting Started
